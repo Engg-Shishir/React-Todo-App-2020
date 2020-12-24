@@ -3,9 +3,9 @@ import React from "react";
 
 const Form = () => {
   // Here I can write Javascript code
-  
+
   const iputTextHandler = (e) => {
-    console.log("shit");
+    console.log(e);
   };
   
   return(

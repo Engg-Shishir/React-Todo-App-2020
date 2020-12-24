@@ -9,4 +9,7 @@
 
 
 
-+ to manage state import this `import React,{useState} from 'react';`
++ to manage state import this `import React,{useState} from 'react';` useState is work for change state
+
+
++ `useEffect` is work when anyof `state` is `change` 

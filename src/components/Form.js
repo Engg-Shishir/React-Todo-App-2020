@@ -1,11 +1,12 @@
 import React from "react";
 
 
-const Form = () => {
+const Form = (props) => {
   // Here I can write Javascript code
 
   const iputTextHandler = (e) => {
-    console.log(e);
+    //console.log(e);
+    props.setInputText(e.target.value);
   };
   
   return(

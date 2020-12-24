@@ -7,14 +7,15 @@ import TodoList from './components/TodoList';
 
 
 function App() {
+  //inputText is our data & setInputText is afunction who is updata our inputText data
   const [inputText, setInputText] = useState("");
-  
+
   return (
     <div className="App">
     <header>
       <h1>Ed's Todo List </h1>
     </header>
-    <Form />
+    <Form setInputText={setInputText}/>
     <TodoList />
     </div>
   );

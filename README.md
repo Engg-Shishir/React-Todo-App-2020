@@ -5,3 +5,4 @@
 
 >## Proces
 + install react `npx create-react-app todo`
++ To run `npm start`

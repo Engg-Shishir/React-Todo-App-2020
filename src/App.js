@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './App.css';
 
 // Importing Component
@@ -7,6 +7,8 @@ import TodoList from './components/TodoList';
 
 
 function App() {
+  const [inputText, setInputText] = useState("");
+  
   return (
     <div className="App">
     <header>

@@ -2,10 +2,17 @@ import React from "react";
 
 
 const Form = () => {
+  // Here I can write Javascript code
+  
+  const iputTextHandler = (e) => {
+    console.log("shit");
+  };
+  
   return(
     <form>
       <input 
         value=""  
+        onChange={iputTextHandler}
         type="text" 
         className="todo-input" 
       />
